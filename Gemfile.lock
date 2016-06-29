@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    factor (0.1.0)
+    alexa-skill (0.1.01)
       alexa_skills_ruby (~> 0.0.5)
       nest_thermostat (~> 0.0.4)
       rake (~> 11.2.2)
@@ -46,7 +46,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  factor!
+  alexa-skill!
 
 BUNDLED WITH
    1.12.5

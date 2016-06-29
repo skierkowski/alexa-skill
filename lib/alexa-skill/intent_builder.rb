@@ -1,4 +1,4 @@
-require './lib/alexa-skill-kit/intent'
+require 'alexa-skill/intent'
 
 module AlexaSkill
   class IntentBuilder
