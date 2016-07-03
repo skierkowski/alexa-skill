@@ -1,4 +1,5 @@
 require 'sinatra/base'
+require 'sinatra/json'
 require 'alexa_skills_ruby'
 
 require 'alexa-skill/registry'
@@ -30,7 +31,7 @@ module AlexaSkill
 
     get '/schema.json' do
       content_type :json
-      AlexaSkill::Registry.schema.to_json
+      json AlexaSkill::Registry.schema
     end
 
     get '/types.txt' do

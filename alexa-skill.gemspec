@@ -17,6 +17,7 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
 
   s.add_runtime_dependency 'sinatra', '~> 1.4.7'
+  s.add_runtime_dependency 'sinatra-contrib', '~> 1.4.7'
   s.add_runtime_dependency 'alexa_skills_ruby', '~> 0.0.5'
   s.add_runtime_dependency 'nest_thermostat', '~> 0.0.4'
   s.add_runtime_dependency 'rake', '~> 11.2.2'
