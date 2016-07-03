@@ -24,7 +24,6 @@ module AlexaSkill
     def self.schema
       response = {intents:[]}
       INTENTS.each do |name, intent|
-        puts "NAME: #{name}"
         intent_schema = {name: name, slots: []}
         intent.slots.each do |slot, properties|
           if properties.is_a?(String)
