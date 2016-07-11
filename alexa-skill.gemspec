@@ -3,7 +3,7 @@ $LOAD_PATH.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |s|
   s.name          = 'alexa-skill'
-  s.version       = '0.1.03'
+  s.version       = '0.1.04'
   s.platform      = Gem::Platform::RUBY
   s.authors       = ['Maciej Skierkowski']
   s.email         = ['maciej@factor.io']
@@ -17,7 +17,6 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
 
   s.add_runtime_dependency 'sinatra', '~> 1.4.7'
-  s.add_runtime_dependency 'sinatra-contrib', '~> 1.4.7'
   s.add_runtime_dependency 'alexa_skills_ruby', '~> 0.0.5'
   s.add_runtime_dependency 'nest_thermostat', '~> 0.0.4'
   s.add_runtime_dependency 'rake', '~> 11.2.2'
