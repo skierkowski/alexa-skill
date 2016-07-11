@@ -1,3 +1,7 @@
+[![Code Climate](https://codeclimate.com/github/skierkowski/alexa-skill/badges/gpa.svg)](https://codeclimate.com/github/skierkowski/alexa-skill)
+[![Dependency Status](https://gemnasium.com/badges/github.com/skierkowski/alexa-skill.svg)](https://gemnasium.com/github.com/skierkowski/alexa-skill)
+
+
 # Alexa Skill 
 A Ruby based DSL to create new Alexa Skills 
 
